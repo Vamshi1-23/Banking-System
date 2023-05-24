@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: none;
+	border:none;
+	text-transform: capitalize;
+	font-weight:normal;
+	transition:all .2s linear;
+}
+
+
+html{
+	font-size:62.5%;
+	overflow:hidden; 
+	
+}
+
+body{
+	background:#111;
+	overflow:hidden;
+	min-height:100vh;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 8rem; 
+}
+section{
+	padding:1rem 7%;
+}
+
+.heading{
+		font-size: 3rem;
+		text-align: center;
+		padding: 1rem;
+		color:black;
+	
+	}
+
+header{
+	width:35rem;
+	background:rgba(255,255,255,2);
+	box-shadow:0 1rem 2rem rgba(0,0,0,.3);
+	backdrop-filter:blur(.4rem);
+	text-align:center;
+	padding:0rem;
+	border-radius:1rem;
+	height:55rem;
+	
+}
+header .user
+{
+	padding-top: 1rem;
+}
+
+header .user img
+{
+	margin:0rem 0;
+	height:12rem;
+	width:12rem;
+	border-radius: 50%;
+	object-fit:cover;
+	box-shadow:0 0 0 1rem rgba(255,255,255,2);
+}
+
+header .user .name
+{
+	font-size: 3rem;
+	color:black;
+	
+}
+header .user .post
+{
+	font-size: 1.8rem;
+	color:black;
+	font-weight: lighter;
+}
+header .navbar
+{
+	padding: 0rem 3rem;
+}
+
+header .navbar ul li
+{
+	margin: 1rem 0;
+	list-style: none;
+}
+
+header .navbar ul li a{
+	display:block;
+	padding:1rem;
+	font-size: 2rem;
+	color:black;
+	background: rgba(255,255,255,.2);
+	box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+	border-radius:1rem;
+	
+}
+
+header .navbar ul li a:hover{
+	background:yellow;
+	color:#555;
+	transition:none;	
+	
+}
+
+.container{
+	height:55rem;
+	width:85rem;
+	background:rgba(255,255,255,2);
+	box-shadow:0 1rem 2rem rgba(0,0,0,.3);
+	backdrop-filter:blur(.4rem);
+	border-radius:1rem;
+	overflow:hidden;
+	
+	}
+	
+.home
+{
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	position:relative;
+	padding-bottom:10rem;
+}
+
+.home h1
+{
+	font-size: 2.5rem;
+	font-weight: lighter;
+	color:Black;
+}
+
+.home .name {
+	font-size: 4rem;
+	color:Black;
+}
+
+.home .post {
+	padding: 1rem 0;
+	font-size: 2rem;
+	color:skyblue;
+}
+.home .post span{
+	font-size: 2rem;
+	color:Black;
+}
+
+
+.profile{
+	min-height: 100%;
+	
+}
+
+.profile .content h3
+{
+	font-size: 2.5rem;
+	color:black;
+}
+
+.profile .skills
+{
+	padding: 1rem 0;	
+}
+
+.profile .skills .progress
+{
+	margin:0.5rem 0;
+	padding: 1rem;
+	box-shadow:0 1rem 1rem rgba(0,0,0,0.2);
+	background:rgba(255,255,255,.2);
+	border-radius:1rem;
+		
+}	
+
+.profile .skills .progress h3{
+	display: flex;
+	justify-content: space-between;
+	color:orange;
+}
+
+
+
+
+
+
+

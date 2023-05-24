@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib tagdir="/WEB-INF/tags" prefix="ap"%>
+<ap:Admin title="Admin">
+<jsp:attribute name="head">
+<link href="/styles/Menubar.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+	
+	<!-- Custom  css file -->
+	<link rel="stylesheet" href="/styles/profile.css">
+</jsp:attribute>
+  <jsp:attribute name="content">
+<body>
+	<!-- Content section starts-->
+	<div class="container">
+		<section class="home" id="home">
+			<h1>Tech bank</h1>	
+			<h3 class="name">Welcomes <span>You</span></h3>
+		</section>
+		</div>
+</body>
+</jsp:attribute>
+</ap:Admin>
